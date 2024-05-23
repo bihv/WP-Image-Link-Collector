@@ -12,7 +12,7 @@ function ilc_enqueue_admin_assets() {
     wp_enqueue_script('jquery');
     wp_enqueue_script('popper-js', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js', array('jquery'), null, true);
     wp_enqueue_script('bootstrap-js', 'https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', array('jquery', 'popper-js'), null, true);
-    wp_enqueue_style('ilc-admin-styles', plugin_dir_url(__FILE__) . 'css/admin-styles.css');
+    wp_enqueue_style('ilc-admin-styles', plugin_dir_url(__FILE__) . 'admin-styles.css');
 }
 add_action('admin_enqueue_scripts', 'ilc_enqueue_admin_assets');
 
