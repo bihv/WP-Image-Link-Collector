@@ -1,0 +1,25 @@
+.table img {
+    max-width: 100px;
+}
+
+.form-inline .form-control {
+    width: auto;
+    margin-right: 10px;
+}
+
+.tooltip-inner {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+}
+
+.image-link:hover {
+    cursor: pointer;
+}
+
+.img-thumbnail {
+	max-width: 500px; /* Giới hạn kích thước ảnh trong tooltip */
+}
+.wrap form:last-child {
+	margin-top: 20px; /* Tạo khoảng cách giữa nút "Collect Image Links" và bìa */
+}
